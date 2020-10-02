@@ -1,7 +1,7 @@
 stroka = input('Введите строку')
 
-for i in stroka.split():
-    if len(i) > 10:
-        print(i[0:10])
+for index, el in enumerate(stroka.split(), 1):
+    if len(el) > 10:
+        print(index, el[0:10])
     else:
-        print(i)
+        print(index, el)
