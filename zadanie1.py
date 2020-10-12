@@ -14,10 +14,9 @@ with open('text_zadanie.txt', 'r') as f_obj:
     count_str = 0
     content = f_obj.readlines()
     for letters in content:
-        count_str +=1
+        count_str += 1
         count_word = 0
         for element in letters.split():
-            count_word +=1
+            count_word += 1
         print(f'В строке "{letters}"  {count_word} слов')
     print(f'Всего строк в файле {count_str}')
-
