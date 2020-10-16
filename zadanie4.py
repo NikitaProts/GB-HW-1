@@ -10,7 +10,7 @@ class Car:
         self.is_police = is_police
 
     def go(self):
-        print(f'Машина {self.name} поехала')
+        print(f'Машина {self.name} поехала и её цвет {self.color}')
 
     def stop(self):
         print('Машина остановилась')
